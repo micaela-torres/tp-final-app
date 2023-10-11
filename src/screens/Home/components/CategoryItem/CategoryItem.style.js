@@ -1,19 +1,20 @@
 import { StyleSheet } from 'react-native'
 import { colors } from '../../../../constants/colors'
 
+// @ts-ignore
 export default styles = StyleSheet.create({
   container: {
     backgroundColor: colors.grey,
-    marginVertical: 15,
+    marginVertical: 7,
     height: 100,
-    borderRadius: 20,
+    borderRadius: 25,
     justifyContent: 'center',
   },
   contentContainer: {
     paddingLeft: 20,
   },
   text: {
-    fontFamily: 'PoppinsLightItalic',
+    fontFamily: 'CroissantOne',
     fontSize: 18,
   },
 })

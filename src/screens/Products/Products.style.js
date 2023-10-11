@@ -1,10 +1,11 @@
 import { StyleSheet } from 'react-native'
 import { colors } from '../../constants/colors'
 
+// @ts-ignore
 export default styles = StyleSheet.create({
   container: {
+    marginTop:20,
     flex: 1,
-    backgroundColor: colors.white,
   },
   listContainer: {
     flex: 1,
@@ -31,10 +32,10 @@ export default styles = StyleSheet.create({
   },
   title: {
     fontWeight: '700',
-    fontVariant: 'small-caps',
+    fontFamily: 'CroissantOne',
   },
   price: {
     fontSize: 20,
-    fontVariant: '',
+    fontFamily: 'CroissantOne',
   },
 })

@@ -1,10 +1,13 @@
 import { StyleSheet } from 'react-native'
 import { colors } from '../../constants/colors'
 
+// @ts-ignore
 export default styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: colors.white,
+    marginTop: 30,
+    marginLeft:20,
+    marginRight:20,
   },
   imageContainer: {
     height: '50%',

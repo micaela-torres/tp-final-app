@@ -1,6 +1,10 @@
 export const colors = {
-  primary: '#d88c9a',
-  secondary: '#f2d0a9',
-  white: '#FFFFFF',
-  grey: '#a5a5a5',
+  primary: '#bdb2ff',
+  secondary: '#ffadad',
+  white: '#fffffc',
+  grey: '#e0e1dd',
+  naranja: '#ffd6a5',
+  amarillo: '#fdffb6',
+  verde: '#caffbf',
+  celeste: '#9bf6ff',
 }

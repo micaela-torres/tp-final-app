@@ -17,6 +17,7 @@ const Details = ({ route }) => {
       <Text style={styles.title}>{product.title}</Text>
       <Text>{product.description}</Text>
       <Text style={styles.price}>{`$ ${product.price}`}</Text>
+      <Text style={styles.price}>{`Codigo: ${product.id}    Stock: ${product.stock}`}</Text>
     </SafeAreaView>
   )
 }
